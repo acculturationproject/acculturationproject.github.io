@@ -10,30 +10,22 @@ categories: misc
 [Applied Psychology Centre at Concordia（コンコーディア大学心理相談センター）](https://www.concordia.ca/artsci/psychology/facilities-services/apc.html)<br>
 臨床心理士（Clinical psychologists）の資格プログラムに所属する大学院生によるカウンセリング、セラピー、アセスメントが受けられます。<br>
 電話番号：(514) 848-2424, ext. 7550<br>
-
-Multi-Écoute（多言語相談サービス（電話もしくは対面））<br>
-電話番号：(514) 737-3604<br>
-
-Face-to-Face （相談・紹介サービス）<br>
-電話番号：(514) 934-4546<br>
-
+Multi-Écoute（多言語相談サービス（電話もしくは対面））：(514) 737-3604<br>
+Face-to-Face （相談・紹介サービス）：(514) 934-4546<br>
 [CLSC（コミュニティーサービスセンター）](http://www.indexsante.ca/clsc)<br>
-
 Find a psychologist directory 心理士検索 <br>
 [英語版はこちら](https://www.ordrepsy.qc.ca/english) <br>
-[フランス語版はこちら]（https://www.ordrepsy.qc.ca/）<br>
+[フランス語版はこちら](https://www.ordrepsy.qc.ca/)<br>
 
 [Multicultural Mental Health Resource Centre（多文化メンタルヘルス情報センター）]<br>
 メンタルヘルスに関するアドバイスや専門家選びに使える情報があります<br>
 [英語版はこちら](https://multiculturalmentalhealth.ca/services/)<br>
-[フランス語版はこちら](https://multiculturalmentalhealth.ca/fr/services-2/）<br>
-
+[フランス語版はこちら](https://multiculturalmentalhealth.ca/fr/services-2/)<br>
 [Vent Over Tea（傾聴サービス、英仏対応可）](https://ventovertea.com)<br>
 
 カナダ：<br>
 [Japanese Social Services](https://jss.ca/en)<br>
 カナダで暮らす日本人や日系人を対象にソーシャルワークや家カウンセリングなどを含むサービスを日本語で提供している非営利団体<br>
-
 [West Coast Healthy Memory Society](https://wchealthymemory.com/)<br>
 認知症の予防を目的とした脳の運動教室などをオンラインで開催している非営利団体<br>
 
