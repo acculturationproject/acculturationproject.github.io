@@ -15,6 +15,6 @@ permalink: /about/
 - [お知らせ一覧](https://acculturationproject.github.io/)
 - [メンタルヘルス・こころの健康のお役立ち情報](https://acculturationproject.github.io/misc/2024/02/19/mentalhealthinfo_page.html)
 - 2024年3月よりカナダ在住日本人のカナダ移住の経験やこころの健康についてWEB調査を行う予定です。
- - [詳しくはこちら](https://acculturationproject.github.io/misc/2024/02/19/websurvey_page.html)
+  - [詳しくはこちら](https://acculturationproject.github.io/misc/2024/02/19/websurvey_page.html)
 
 [jekyll-organization]: https://github.com/jekyll
