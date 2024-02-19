@@ -13,14 +13,10 @@ categories: misc
 Multi-Écoute（多言語相談サービス（電話もしくは対面））：(514) 737-3604<br>
 Face-to-Face （相談・紹介サービス）：(514) 934-4546<br>
 [CLSC（コミュニティーサービスセンター）](http://www.indexsante.ca/clsc)<br>
-Find a psychologist directory 心理士検索 <br>
-[英語版はこちら](https://www.ordrepsy.qc.ca/english) <br>
-[フランス語版はこちら](https://www.ordrepsy.qc.ca/)<br>
+Find a psychologist directory 心理士検索: [英語版はこちら](https://www.ordrepsy.qc.ca/english) 、[フランス語版はこちら](https://www.ordrepsy.qc.ca/)<br>
 
 [Multicultural Mental Health Resource Centre（多文化メンタルヘルス情報センター）]<br>
-メンタルヘルスに関するアドバイスや専門家選びに使える情報があります<br>
-[英語版はこちら](https://multiculturalmentalhealth.ca/services/)<br>
-[フランス語版はこちら](https://multiculturalmentalhealth.ca/fr/services-2/)<br>
+メンタルヘルスに関するアドバイスや専門家選びに使える情報があります。[英語版はこちら](https://multiculturalmentalhealth.ca/services/)、[フランス語版はこちら](https://multiculturalmentalhealth.ca/fr/services-2/)<br>
 [Vent Over Tea（傾聴サービス、英仏対応可）](https://ventovertea.com)<br>
 
 カナダ：<br>
