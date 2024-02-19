@@ -15,7 +15,7 @@ permalink: /about/
 現在、カナダ在住日本人のカナダ移住の経験やこころの健康について調査しており、参加者を募集しています。
  [詳しくはこちら](https://acculturationproject.github.io/misc/2024/02/19/deploy_this_page.html)<br>
 <br>
-[お知らせ一覧](https://github.com/jekyll/minima)<br>
+[お知らせ一覧](https://acculturationproject.github.io/)<br>
 [相談機関・その他メンタルヘルスに関する情報](https://github.com/jekyll/minima)<br>
 
 
