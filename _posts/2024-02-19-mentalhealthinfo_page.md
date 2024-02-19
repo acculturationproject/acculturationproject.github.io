@@ -8,8 +8,7 @@ categories: misc
 
 ケベック州：<br>
 [Applied Psychology Centre at Concordia（コンコーディア大学心理相談センター）](https://www.concordia.ca/artsci/psychology/facilities-services/apc.html)<br>
-臨床心理士（Clinical psychologists）の資格プログラムに所属する大学院生によるカウンセリング、セラピー、アセスメントが受けられます。<br>
-電話番号：(514) 848-2424, ext. 7550<br>
+臨床心理士（Clinical psychologists）の資格プログラムに所属する大学院生によるカウンセリング、セラピー、アセスメントが受けられます。電話番号：(514) 848-2424, ext. 7550<br>
 Multi-Écoute（多言語相談サービス（電話もしくは対面））：(514) 737-3604<br>
 Face-to-Face （相談・紹介サービス）：(514) 934-4546<br>
 [CLSC（コミュニティーサービスセンター）](http://www.indexsante.ca/clsc)<br>
