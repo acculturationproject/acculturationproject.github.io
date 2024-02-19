@@ -16,7 +16,7 @@ permalink: /about/
  [詳しくはこちら](https://acculturationproject.github.io/misc/2024/02/19/deploy_this_page.html)<br>
 <br>
 [お知らせ一覧](https://acculturationproject.github.io/)<br>
-[メンタルヘルス・こころの健康のお役立ち情報](https://github.com/jekyll/minima)<br>
+[メンタルヘルス・こころの健康のお役立ち情報]([https://github.com/jekyll/minima](https://acculturationproject.github.io/misc/2024/02/19/mentalhealthinfo_page.html)https://acculturationproject.github.io/misc/2024/02/19/mentalhealthinfo_page.html)<br>
 
 
 [jekyll-organization]: https://github.com/jekyll
