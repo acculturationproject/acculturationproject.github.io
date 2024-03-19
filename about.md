@@ -1,15 +1,15 @@
----
+![image](https://github.com/acculturationproject/acculturationproject.github.io/assets/99145970/4e307fd5-3b4f-4d45-b905-e4bbb7454391)---
 layout: page
 title: About
 permalink: /about/
 ---
 
-本ホームページは Concordia 大学大学院心理学部（ケベック州、モントリオール）の Culture, Health and Personality 研究室の研究チームで運営しております。
-カナダ在住日本人の移住の経験やこころの健康に関する調査研究及び、メンタルヘルスやそれに伴う情報発信のために活動をしています。
+本ホームページは 本ホームページは コンコーディア大学心理学部（ケベック州、モントリオール）のライダー研究室の研究チームで運営しております。
+カナダ在住日本人の移住の経験やこころの健康に関する調査研究及び、メンタルヘルスやそれに伴う情報発信のために活動しています。
 
 ## 在加邦人メンタルヘルス研究会 メンバー
-- 研究責任者:春原桃佳（Concordia大学博士研究員）
-- 共同研究者:長沼彩花・友田有希・堀口瑞季
+- プロジェクトマネージャー:渡邉桃佳（Concordia大学博士研究員）
+- 研究補助員:長沼彩花・友田有希・堀口瑞季
 
 ## リンク
 - [お知らせ一覧](https://acculturationproject.github.io/)
