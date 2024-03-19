@@ -1,4 +1,4 @@
-![image](https://github.com/acculturationproject/acculturationproject.github.io/assets/99145970/17d419cb-097b-4cda-97d8-11125e7c931e)---
+---
 layout: page
 title: About
 permalink: /about/
