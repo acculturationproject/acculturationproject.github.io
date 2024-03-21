@@ -1,4 +1,4 @@
-![image](https://github.com/acculturationproject/acculturationproject.github.io/assets/99145970/01a9fa30-ab64-41fa-8471-334673226e9f)---
+---
 layout: post
 title: "研究チームメンバー紹介"
 categories: misc
