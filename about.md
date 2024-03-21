@@ -1,6 +1,6 @@
 ---
 layout: page
-title: トップ
+title: カナダ在住日本人のメンタルヘルス研究会について
 permalink: /about/
 ---
 
