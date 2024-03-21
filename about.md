@@ -4,7 +4,7 @@ title: ホーム
 permalink: /about/
 ---
 
-本ホームページは コンコーディア大学大学院心理学研究科（ケベック州、モントリオール）のライダー研究室の[研究チーム](https://acculturationproject.github.io/_posts/2024-02-20-deploy_member.md)で運営しております。
+本ホームページは コンコーディア大学大学院心理学研究科（ケベック州、モントリオール）のライダー研究室の[研究チーム](https://acculturationproject.github.io/misc/2024/02/20/deploy_member.html)で運営しております。
 カナダ在住日本人の移住の経験やこころの健康に関する調査研究及び、メンタルヘルスやそれに伴う情報発信のために活動しています。
 
 ## カナダ在住日本人のカナダ移住経験やこころの健康に関するアンケート調査について
@@ -15,10 +15,10 @@ permalink: /about/
   - カナダ在住歴が１年以上の方
   - 日本語でアンケートに回答・記入できる方
   - 18歳以上の方（年齢制限の上限はありません。）
-- [詳しくはこちら](https://acculturationproject.github.io/misc/2024/02/19/websurvey_page.html)
+- [詳しくはこちら](https://acculturationproject.github.io/misc/2024/03/21/websurvey_page.html)
 
 ## [お知らせ一覧](https://acculturationproject.github.io/)
-- [メンタルヘルス・こころの健康のお役立ち情報](https://acculturationproject.github.io/misc/2024/02/19/mentalhealthinfo_page.html)
+- [メンタルヘルス・こころの健康のお役立ち情報](https://acculturationproject.github.io/misc/2024/03/01/mentalhealthinfo_page.html)
 
 
 [jekyll-organization]: https://github.com/jekyll
