@@ -16,8 +16,7 @@ permalink: /about/
   - 18歳以上の方（年齢制限の上限はありません。）
 - [詳しくはこちら](https://acculturationproject.github.io/misc/2024/02/19/websurvey_page.html)
 
-## リンク
-- [お知らせ一覧](https://acculturationproject.github.io/)
+## [お知らせ一覧](https://acculturationproject.github.io/)
 - [メンタルヘルス・こころの健康のお役立ち情報](https://acculturationproject.github.io/misc/2024/02/19/mentalhealthinfo_page.html)
 
 
