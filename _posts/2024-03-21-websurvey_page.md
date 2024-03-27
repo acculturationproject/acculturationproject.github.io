@@ -11,37 +11,44 @@ categories: misc
 応募条件をすべて満たす方は、ご参加・ご協力のほどよろしくお願いいたします。
 
 
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-        .pdf-container {
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+    <title>PDF.js Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
 </head>
 <body>
+    <canvas id="pdf-canvas"></canvas>
+    <script>
+        // PDF.jsを使ってPDFを読み込む
+        var url = 'https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health%20Study_of_Japanese_Residents_in_Canada.pdf';
 
-<div class="pdf-container">
-    <iframe src="https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health Study_of_Japanese_Residents_in_Canada.pdf" allowfullscreen></iframe>
-</div>
+        // PDF文書を取得
+        pdfjsLib.getDocument(url).promise.then(function(pdfDoc) {
+            // 最初のページを取得
+            pdfDoc.getPage(1).then(function(page) {
+                var canvas = document.getElementById('pdf-canvas');
+                var ctx = canvas.getContext('2d');
+                var scale = 1; // スケールは後で調整
+                var viewport = page.getViewport({scale: scale});
 
+                // 画面の幅に合わせてスケールを調整
+                var scale = document.documentElement.clientWidth / viewport.width;
+                viewport = page.getViewport({scale: scale});
+
+                // Canvasのサイズをページのサイズに合わせる
+                canvas.width = viewport.width;
+                canvas.height = viewport.height;
+
+                // ページをCanvasにレンダリング
+                var renderContext = {
+                    canvasContext: ctx,
+                    viewport: viewport
+                };
+                page.render(renderContext);
+            });
+        });
+    </script>
 </body>
 </html>
+
