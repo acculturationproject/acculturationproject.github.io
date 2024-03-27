@@ -16,7 +16,7 @@ permalink: /about/
   - 日本語でアンケートに回答・記入できる方
   - 18歳以上の方（年齢制限の上限はありません。）
 - [調査詳細はこちら](https://acculturationproject.github.io/misc/2024/03/21/websurvey_page.html)
-- [オンライン調査のURLはこちら](https://bit.ly/JapaneseCanadaKokoroHealth)
+- オンライン調査URL:[https://bit.ly/JapaneseCanadaKokoroHealth](https://bit.ly/JapaneseCanadaKokoroHealth)
 
 ## [お知らせ一覧](https://acculturationproject.github.io/)
 - [メンタルヘルス・こころの健康のお役立ち情報](https://acculturationproject.github.io/misc/2024/03/01/mentalhealthinfo_page.html)
