@@ -52,7 +52,7 @@ categories: misc
                 var scaledViewport = page.getViewport({scale: scale});
 
                 canvas.height = scaledViewport.height;
-                canvas.width = window.innerWidth; // Use the full width of the screen
+                canvas.width = scaledViewport.width; // Use the full width of the screen
 
                 var renderContext = {
                     canvasContext: context,
