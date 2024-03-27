@@ -36,7 +36,6 @@ categories: misc
 
 <script>
 var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-var devicePixelRatio = window.devicePixelRatio || 1; // デバイスのピクセル比を取得
 
 if (screenWidth < 768) {
     // For mobile devices, use PDF.js to display the PDF
@@ -48,17 +47,14 @@ if (screenWidth < 768) {
             var canvas = document.getElementById('pdf-canvas');
             var context = canvas.getContext('2d');
             var viewport = page.getViewport({scale: 1});
-            var scale = (screenWidth / viewport.width) * devicePixelRatio;
+            var scale = screenWidth / viewport.width;
             var scaledViewport = page.getViewport({scale: scale});
 
             canvas.style.height = 'auto';
-            canvas.style.width = `${screenWidth}px`; // CSSでの幅の設定
 
-            canvas.height = scaledViewport.height * devicePixelRatio; // 実際のピクセル数を考慮
-            canvas.width = screenWidth * devicePixelRatio; // CSSの幅とピクセル比を考慮した実際の幅
-
-            // 描画コンテキストのスケールを調整
-            context.scale(devicePixelRatio, devicePixelRatio);
+            // Adjust canvas size based on the scaled viewport
+            canvas.height = scaledViewport.height;
+            canvas.width = scaledViewport.width; // Use scaled viewport width
 
             var renderContext = {
                 canvasContext: context,
