@@ -48,8 +48,8 @@ if (screenWidth < 768) {
             var canvas = document.getElementById('pdf-canvas');
             var context = canvas.getContext('2d');
             var viewport = page.getViewport({scale: 1});
-            var scale = screenWidth / viewport.width;
-            var scaledViewport = page.getViewport({scale: scale}) * devicePixelRatio;
+            var scale = (screenWidth / viewport.width) * devicePixelRatio;
+            var scaledViewport = page.getViewport({scale: scale});
 
             canvas.style.height = 'auto';
             canvas.style.width = `${screenWidth}px`; // CSSでの幅の設定
