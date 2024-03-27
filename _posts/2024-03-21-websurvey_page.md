@@ -24,6 +24,7 @@ categories: misc
         }
         iframe {
             width: 100%;
+            height: 100vh;
             display: none; /* Initially hide iframe */
         }
     </style>
@@ -48,6 +49,8 @@ if (screenWidth < 768) {
             var viewport = page.getViewport({scale: 1});
             var scale = screenWidth / viewport.width;
             var scaledViewport = page.getViewport({scale: scale});
+
+            canvas.style.height = 'auto';
 
             // Adjust canvas size based on the scaled viewport
             canvas.height = scaledViewport.height;
