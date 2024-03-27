@@ -14,48 +14,57 @@ categories: misc
 
 <html>
 <head>
-    <title>Responsive PDF Display Corrected</title>
+    <title>Responsive PDF Display Example</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+    <style>
+        #pdf-canvas {
+            width: 100%;
+            height: 100vh;
+            display: none; /* Initially hide canvas */
+        }
+        iframe {
+            width: 100%;
+            height: 100vh;
+            display: none; /* Initially hide iframe */
+        }
+    </style>
 </head>
 <body>
 
 <canvas id="pdf-canvas"></canvas>
+<iframe id="pdf-iframe" frameborder="0"></iframe>
 
 <script>
-    var url = 'https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health%20Study_of_Japanese_Residents_in_Canada.pdf';
+    var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    // PDFを読み込んで指定のスケールでページをレンダリングする関数
-    function renderPDF() {
+    if (screenWidth < 768) {
+        // モバイルデバイスの場合、PDF.jsを使用してPDFを表示
+        document.getElementById('pdf-canvas').style.display = 'block';
+
+        var url = 'https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health%20Study_of_Japanese_Residents_in_Canada.pdf';
         pdfjsLib.getDocument(url).promise.then(function(pdfDoc) {
             pdfDoc.getPage(1).then(function(page) {
                 var canvas = document.getElementById('pdf-canvas');
                 var context = canvas.getContext('2d');
-
-                // 画面の幅に合わせてスケールを計算
-                var viewport = page.getViewport({scale: 0.9});
-                var scale = window.innerWidth / viewport.width;
-                var scaledViewport = page.getViewport({scale: scale});
-
-                canvas.width = scaledViewport.width*0.9;
-                canvas.height = scaledViewport.height*0.9;
+                var scale = window.innerWidth / page.getViewport({scale:0.9}).width;
+                var viewport = page.getViewport({scale: scale});
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
 
                 var renderContext = {
                     canvasContext: context,
-                    viewport: scaledViewport
+                    viewport: viewport
                 };
-
                 page.render(renderContext);
             });
         });
-    }
 
-    // ドキュメントのロード時とウィンドウのリサイズ時にPDFを再レンダリング
-    function onDocumentLoadOrResize() {
-        renderPDF();
+    } else {
+        // パソコンの場合、iframeを使用してPDFを表示
+        var iframe = document.getElementById('pdf-iframe');
+        iframe.style.display = 'block';
+        iframe.src = 'https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health%20Study_of_Japanese_Residents_in_Canada.pdf';
     }
-
-    window.addEventListener('load', onDocumentLoadOrResize);
-    window.addEventListener('resize', onDocumentLoadOrResize);
 </script>
 
 </body>
