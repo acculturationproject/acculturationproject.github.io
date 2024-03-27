@@ -20,12 +20,10 @@ categories: misc
     <style>
         #pdf-canvas {
             width: 100%;
-            height: 100vh;
             display: none; /* Initially hide canvas */
         }
         iframe {
             width: 100%;
-            height: 100vh;
             display: none; /* Initially hide iframe */
         }
     </style>
