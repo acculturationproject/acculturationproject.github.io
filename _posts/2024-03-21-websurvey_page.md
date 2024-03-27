@@ -11,25 +11,37 @@ categories: misc
 応募条件をすべて満たす方は、ご参加・ご協力のほどよろしくお願いいたします。
 
 
-<html lang="ja">
+
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>カナダ在住日本人の文化適応とこころの健康研究</title>
-<style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-    }
-    iframe {
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .pdf-container {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-<iframe src="https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health Study_of_Japanese_Residents_in_Canada.pdf" frameborder="0"></iframe>
+
+<div class="pdf-container">
+    <iframe src="https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health Study_of_Japanese_Residents_in_Canada.pdf" allowfullscreen></iframe>
+</div>
+
 </body>
 </html>
