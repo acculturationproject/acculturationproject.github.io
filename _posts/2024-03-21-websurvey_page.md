@@ -36,33 +36,33 @@ categories: misc
 <iframe id="pdf-iframe" frameborder="0"></iframe>
 
 <script>
-    var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    if (screenWidth < 768) {
-        // For mobile devices, use PDF.js to display the PDF
-        document.getElementById('pdf-canvas').style.display = 'block';
+if (screenWidth < 768) {
+    // For mobile devices, use PDF.js to display the PDF
+    document.getElementById('pdf-canvas').style.display = 'block';
 
-        var url = 'https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health%20Study_of_Japanese_Residents_in_Canada.pdf';
-        pdfjsLib.getDocument(url).promise.then(function(pdfDoc) {
-            pdfDoc.getPage(1).then(function(page) {
-                var canvas = document.getElementById('pdf-canvas');
-                var context = canvas.getContext('2d');
-                var viewport = page.getViewport({scale: 1});
-                var scale = window.innerWidth / viewport.width;
-                var scaledViewport = page.getViewport({scale: scale});
+    var url = 'https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health%20Study_of_Japanese_Residents_in_Canada.pdf';
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc) {
+        pdfDoc.getPage(1).then(function(page) {
+            var canvas = document.getElementById('pdf-canvas');
+            var context = canvas.getContext('2d');
+            var viewport = page.getViewport({scale: 1});
+            var scale = screenWidth / viewport.width;
+            var scaledViewport = page.getViewport({scale: scale});
 
-                canvas.height = scaledViewport.height;
-                canvas.width = scaledViewport.width; // Use the full width of the screen
+            // Adjust canvas size based on the scaled viewport
+            canvas.height = scaledViewport.height;
+            canvas.width = scaledViewport.width; // Use scaled viewport width
 
-                var renderContext = {
-                    canvasContext: context,
-                    viewport: scaledViewport
-                };
-                page.render(renderContext);
-            });
+            var renderContext = {
+                canvasContext: context,
+                viewport: scaledViewport
+            };
+            page.render(renderContext);
         });
-
-    } else {
+    });
+} else {
         // パソコンの場合、iframeを使用してPDFを表示
         var iframe = document.getElementById('pdf-iframe');
         iframe.style.display = 'block';
