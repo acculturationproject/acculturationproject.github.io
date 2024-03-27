@@ -36,8 +36,8 @@ categories: misc
                 var scale = window.innerWidth / viewport.width;
                 var scaledViewport = page.getViewport({scale: scale});
 
-                canvas.width = scaledViewport.width;
-                canvas.height = scaledViewport.height;
+                canvas.width = scaledViewport.width*0.9;
+                canvas.height = scaledViewport.height*0.9;
 
                 var renderContext = {
                     canvasContext: context,
