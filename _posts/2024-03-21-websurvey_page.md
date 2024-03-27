@@ -19,8 +19,9 @@ categories: misc
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
     <style>
         #pdf-canvas {
-            width: 100%; /* 100% of the parent's width */
-            display: block; /* Show the canvas by default */
+            width: 100%;
+            height: 100vh;
+            display: none; /* Initially hide canvas */
         }
         iframe {
             width: 100%;
@@ -65,7 +66,7 @@ categories: misc
         // For desktops, use an iframe to display the PDF
         var iframe = document.getElementById('pdf-iframe');
         iframe.style.display = 'block';
-        iframe.src = url;
+        iframe.src = 'https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health%20Study_of_Japanese_Residents_in_Canada.pdf';
     }
 </script>
 
