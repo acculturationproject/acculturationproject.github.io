@@ -10,7 +10,7 @@ categories: misc
 
 応募条件をすべて満たす方は、ご参加・ご協力のほどよろしくお願いいたします。
 
-オンライン調査のURLはこちら: [https://bit.ly/JapaneseCanadaKokoroHealth](https://bit.ly/JapaneseCanadaKokoroHealth)
+アンケートのURLはこちら: [https://bit.ly/JapaneseCanadaKokoroHealth](https://bit.ly/JapaneseCanadaKokoroHealth)
 
 
 <html>
