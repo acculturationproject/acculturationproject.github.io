@@ -36,7 +36,8 @@ categories: misc
 
 <script>
 var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-
+var devicePixelRatio = window.devicePixelRatio || 1;
+    
 if (screenWidth < 768) {
     // For mobile devices, use PDF.js to display the PDF
     document.getElementById('pdf-canvas').style.display = 'block';
@@ -48,13 +49,14 @@ if (screenWidth < 768) {
             var context = canvas.getContext('2d');
             var viewport = page.getViewport({scale: 1});
             var scale = screenWidth / viewport.width;
-            var scaledViewport = page.getViewport({scale: scale});
+            var scaledViewport = page.getViewport({scale: scale * devicePixelRatio});
 
-            canvas.style.height = 'auto';
+            canvas.style.width = `${screenWidth}px`;
+            canvas.style.height = `${scaledViewport.height / devicePixelRatio}px`;
 
             // Adjust canvas size based on the scaled viewport
+            canvas.width = screenWidth * devicePixelRatio;
             canvas.height = scaledViewport.height;
-            canvas.width = scaledViewport.width; // Use scaled viewport width
 
             var renderContext = {
                 canvasContext: context,
