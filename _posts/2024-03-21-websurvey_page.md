@@ -63,7 +63,7 @@ categories: misc
         });
 
     } else {
-        // For desktops, use an iframe to display the PDF
+        // パソコンの場合、iframeを使用してPDFを表示
         var iframe = document.getElementById('pdf-iframe');
         iframe.style.display = 'block';
         iframe.src = 'https://acculturationproject.github.io/assets/pdf/Cultural_Adjustment_and_Mental_Health%20Study_of_Japanese_Residents_in_Canada.pdf';
