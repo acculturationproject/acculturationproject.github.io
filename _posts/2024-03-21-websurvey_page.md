@@ -32,7 +32,7 @@ categories: misc
                 var context = canvas.getContext('2d');
 
                 // 画面の幅に合わせてスケールを計算
-                var viewport = page.getViewport({scale: 1.0});
+                var viewport = page.getViewport({scale: 0.9});
                 var scale = window.innerWidth / viewport.width;
                 var scaledViewport = page.getViewport({scale: scale});
 
